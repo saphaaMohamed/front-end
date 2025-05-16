@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import './Placeorder.css';
+import { useContext } from 'react';
+import './placeOrder.css';
 import { StoreContext } from '../../context/StoreContext'; // ✅ Correct path to your context
 import { useNavigate } from 'react-router-dom';
 
