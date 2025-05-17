@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer'
 import { useState } from 'react'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import LoginPopup from './components/LoginPopup/LoginPopup'
-import './pages/Cart/cart.css';
+import './pages/PlaceOrder/Placeorder.css';
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
   return (
